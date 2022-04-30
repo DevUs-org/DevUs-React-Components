@@ -12,8 +12,10 @@ export const Modal = ({type, message, isOpen}) => {
 
     function TypeSelector(){
         switch(type){
-            case 'alert' : return <AlertBox message = {message} />;
             case 'error' : return <ErrorBox message= {message} />;
+            case 'alert' :
+            default :
+                return <AlertBox message = {message} />;
         }
     }
 
