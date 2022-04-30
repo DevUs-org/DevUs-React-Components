@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { ExampleComponent } from '@devus.org/devus-react-components'
+import { Modal } from '@devus.org/devus-react-components'
 import '@devus.org/devus-react-components/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <Modal type = 'error' message = 'This is a sample message ga ebbd hdbfbf hs hdbd dhe dhdbhd' isOpen={true}/>
+    </div>
+  );
 }
 
 export default App
