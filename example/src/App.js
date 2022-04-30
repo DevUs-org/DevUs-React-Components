@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Modal } from '@devus.org/devus-react-components'
-import '@devus.org/devus-react-components/dist/index.css'
+import { Modal } from '@devus/devus-react-components'
+import '@devus/devus-react-components/dist/index.css'
 
 const App = () => {
   return (
