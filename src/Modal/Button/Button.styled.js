@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const StyledButton = styled.button`
+export const StyledButton = styled.button
+.attrs(props => ({
+    id : props.id || 'modal-btn' 
+}))`
     background-color : rgba(0, 0, 0, 0.4);
     color : #fff;
     font-family : 'Josefin Sans', cursive;
