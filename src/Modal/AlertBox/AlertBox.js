@@ -1,9 +1,8 @@
-import React, {useContext} from "react";
+import React, {useContext, useEffect} from "react";
 import PropTypes from 'prop-types';
 import { StyledAlertBox } from "./AlertBox.styled";
 import { modalOpenContext } from "../../Context";
 import { StyledButton } from "../Button/Button.styled";
-import { useEffect } from "react/cjs/react.production.min";
 
 export const AlertBox = ({message}) => {
     const {setModalOpen} = useContext(modalOpenContext);
