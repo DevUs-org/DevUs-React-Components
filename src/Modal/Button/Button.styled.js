@@ -25,5 +25,6 @@ export const StyledButton = styled.button
         font-weight : bold;
         box-shadow : 0 0 5px white;
         transition : 0.1s;
+        color : #fff;
     }
 `;
